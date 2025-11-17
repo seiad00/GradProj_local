@@ -34,6 +34,9 @@ public class MapLoader : MonoBehaviour
     [Header("Threshold")]
     public float Threshold = 17f; // 맵 생성 타이밍 감지를 위한 임계값 설정
 
+    // 맵 생성 시 EnemySpawner에게 맵이 로드되었음을 알리는 이벤트
+    public event System.Action OnMapLoaded;
+
     void Start()
     {
         mapCount += 1;
@@ -97,8 +100,7 @@ public class MapLoader : MonoBehaviour
             nextMapY -= MapHeight;
             Debug.Log("nextMapY: " + nextMapY);
         }
-
-
+        OnMapLoaded?.Invoke();
     }
 
     // Update is called once per frame

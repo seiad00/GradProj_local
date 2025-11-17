@@ -2,15 +2,31 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public MapLoader mapLoader;
+
+    public void SpawnEnemy()
+    {
+        /* StageManager에서 ModifyDifficulty를 거친 EnemyPool을 받아와서 적절한 위치에 스폰 */
+    }
+
+    private void OnEnable()
+    {
+        mapLoader.OnMapLoaded += SpawnEnemy;
+    }
+
     void Start()
+    {
+
+    }
+
+    
+    void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        mapLoader.OnMapLoaded -= SpawnEnemy;
     }
 }

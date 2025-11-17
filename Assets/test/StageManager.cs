@@ -13,10 +13,11 @@ public class StageManager : MonoBehaviour
 {
 
     //스크립트 참조
-    [Header("Ref Player")]
+    [Header("References")]
     public PlayerController player;
-    //[Header("Ref Enemy")]
     //public Enemy enemy;
+    public MapLoader mapLoader;
+    public EnemySpawner enemySpawner;
 
     //이벤트 발행
     public event System.Action<bool> OnStageFail;
@@ -141,10 +142,6 @@ public class StageManager : MonoBehaviour
         // enemy spawncost에 가중치를 부여
     }
 
-    public void SpawnEnemy()
-    {
-
-    }
 
     void Update()
     {
