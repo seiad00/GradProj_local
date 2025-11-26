@@ -157,9 +157,9 @@ public class MapLoader : MonoBehaviour
             GameObject SelectedMap = mapPool[key][mapIndex];
 
             /* 결정한 맵이 사용된 맵인지 확인. 프리셋이 충분히 만들어지면 주석해제
-            foreach (GameObject obj in usedMap)
+            foreach (GameObject used in usedMap)
             {
-                if (SelectedMap == obj)
+                if (SelectedMap == used)
                 {
                     isUsed = true;
                     break;
