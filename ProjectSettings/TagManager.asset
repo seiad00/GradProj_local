@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Interactible
+  - Enemy
+  - Trap
+  - Item
+  - TreasureBox
   layers:
   - Default
   - TransparentFX
@@ -11,13 +16,13 @@ TagManager:
   - 
   - Water
   - UI
-  - ground
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Enemy
+  - Player
+  - InspectObject
+  - PostProcessing
   - 
   - 
   - 
@@ -40,6 +45,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 1802038029
     locked: 0
   m_RenderingLayers:
   - Default

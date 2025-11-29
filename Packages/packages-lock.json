@@ -57,7 +57,7 @@
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
-      "depth": 1,
+      "depth": 0,
       "source": "builtin",
       "dependencies": {}
     },
@@ -74,7 +74,7 @@
     },
     "com.unity.2d.tilemap": {
       "version": "1.0.0",
-      "depth": 1,
+      "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.tilemap": "1.0.0",
@@ -113,7 +113,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "2.10.1",
+      "version": "2.10.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -162,11 +162,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.25",
+      "version": "2.0.23",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.1.31"
+        "com.unity.test-framework": "1.1.9"
       },
       "url": "https://packages.unity.com"
     },
