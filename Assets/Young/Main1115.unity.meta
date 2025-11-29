@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 132dc37d69d2ee44d875f70a6440b245
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245475
+  packageName: 2D Platformer Controller (with animated character)
+  packageVersion: 1.0.0
+  assetPath: Assets/1112/Scenes/Demo.unity
+  uploadId: 558839

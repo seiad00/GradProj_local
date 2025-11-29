@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c3e64108d87babb4fa176a81a44fe9c1
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245475
+  packageName: 2D Platformer Controller (with animated character)
+  packageVersion: 1.0.0
+  assetPath: Assets/SupanthaPaul/2D Platformer Controller/Scenes/Demo.unity
+  uploadId: 558839
